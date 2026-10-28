@@ -1,0 +1,21 @@
+{
+  "base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "trained_at": "2026-10-25T19:19:16",
+  "device": "cpu",
+  "epochs": 3,
+  "optimizer_steps": 339,
+  "train_examples": 1801,
+  "best_val_loss": 0.08572235263252141,
+  "minutes": 475.6,
+  "lora": {
+    "r": 8,
+    "alpha": 16,
+    "targets": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ]
+  },
+  "trainable_params": 1081344
+}

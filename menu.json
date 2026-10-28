@@ -1,0 +1,911 @@
+{
+  "restaurant": "Taverna Aroma / Ταβέρνα Άρωμα",
+  "currency": "EUR",
+  "category_names": {
+    "starter": {
+      "en": "Starters",
+      "el": "Ορεκτικά"
+    },
+    "salad": {
+      "en": "Salads",
+      "el": "Σαλάτες"
+    },
+    "main": {
+      "en": "Main courses",
+      "el": "Κυρίως πιάτα"
+    },
+    "pizza": {
+      "en": "Pizzas",
+      "el": "Πίτσες"
+    },
+    "dessert": {
+      "en": "Desserts",
+      "el": "Γλυκά"
+    },
+    "drink": {
+      "en": "Drinks",
+      "el": "Ποτά"
+    }
+  },
+  "allergen_names": {
+    "gluten": {
+      "en": "gluten",
+      "el": "γλουτένη"
+    },
+    "crustaceans": {
+      "en": "crustaceans (shellfish)",
+      "el": "οστρακοειδή"
+    },
+    "eggs": {
+      "en": "eggs",
+      "el": "αυγά"
+    },
+    "fish": {
+      "en": "fish",
+      "el": "ψάρι"
+    },
+    "peanuts": {
+      "en": "peanuts",
+      "el": "φιστίκια"
+    },
+    "soybeans": {
+      "en": "soy",
+      "el": "σόγια"
+    },
+    "milk": {
+      "en": "milk / dairy",
+      "el": "γάλα / γαλακτοκομικά"
+    },
+    "nuts": {
+      "en": "tree nuts",
+      "el": "ξηροί καρποί",
+      "el_acc": "ξηρούς καρπούς"
+    },
+    "celery": {
+      "en": "celery",
+      "el": "σέλινο"
+    },
+    "mustard": {
+      "en": "mustard",
+      "el": "μουστάρδα"
+    },
+    "sesame": {
+      "en": "sesame",
+      "el": "σουσάμι"
+    },
+    "sulphites": {
+      "en": "sulphites",
+      "el": "θειώδη"
+    },
+    "lupin": {
+      "en": "lupin",
+      "el": "λούπινο"
+    },
+    "molluscs": {
+      "en": "molluscs",
+      "el": "μαλάκια"
+    }
+  },
+  "dishes": [
+    {
+      "id": "tzatziki",
+      "name_en": "Tzatziki",
+      "name_el": "Τζατζίκι",
+      "article_el": "το",
+      "category": "starter",
+      "price": 4.5,
+      "ingredients_en": [
+        "strained yogurt",
+        "cucumber",
+        "garlic",
+        "olive oil",
+        "dill"
+      ],
+      "ingredients_el": [
+        "στραγγιστό γιαούρτι",
+        "αγγούρι",
+        "σκόρδο",
+        "ελαιόλαδο",
+        "άνηθος"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "aliases": [
+        "tzatziki",
+        "τζατζίκι",
+        "tzatziki dip",
+        "tzatzikia"
+      ]
+    },
+    {
+      "id": "halloumi",
+      "name_en": "Grilled Halloumi",
+      "name_el": "Χαλλούμι Σχάρας",
+      "article_el": "το",
+      "category": "starter",
+      "price": 6.0,
+      "ingredients_en": [
+        "Cypriot halloumi cheese",
+        "lemon",
+        "mint"
+      ],
+      "ingredients_el": [
+        "κυπριακό χαλλούμι",
+        "λεμόνι",
+        "δυόσμος"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "aliases": [
+        "halloumi",
+        "grilled halloumi",
+        "χαλλούμι",
+        "χαλούμι",
+        "χαλλούμι σχάρας",
+        "xalloumi",
+        "challoumi"
+      ]
+    },
+    {
+      "id": "bruschetta",
+      "name_en": "Bruschetta",
+      "name_el": "Μπρουσκέτα",
+      "article_el": "η",
+      "category": "starter",
+      "price": 5.5,
+      "ingredients_en": [
+        "toasted bread",
+        "tomato",
+        "basil",
+        "garlic",
+        "olive oil"
+      ],
+      "ingredients_el": [
+        "φρυγανισμένο ψωμί",
+        "ντομάτα",
+        "βασιλικός",
+        "σκόρδο",
+        "ελαιόλαδο"
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "aliases": [
+        "bruschetta",
+        "brusketa",
+        "μπρουσκέτα",
+        "mprousketa"
+      ]
+    },
+    {
+      "id": "calamari",
+      "name_en": "Fried Calamari",
+      "name_el": "Καλαμαράκια Τηγανητά",
+      "article_el": "τα",
+      "category": "starter",
+      "price": 9.5,
+      "ingredients_en": [
+        "squid",
+        "wheat flour",
+        "lemon",
+        "sunflower oil"
+      ],
+      "ingredients_el": [
+        "καλαμάρι",
+        "αλεύρι σίτου",
+        "λεμόνι",
+        "ηλιέλαιο"
+      ],
+      "allergens": [
+        "molluscs",
+        "gluten"
+      ],
+      "aliases": [
+        "calamari",
+        "fried calamari",
+        "squid",
+        "καλαμαράκια",
+        "καλαμάρια",
+        "καλαμαράκια τηγανητά",
+        "kalamarakia",
+        "kalamaria"
+      ]
+    },
+    {
+      "id": "greek_salad",
+      "name_en": "Greek Salad",
+      "name_el": "Χωριάτικη Σαλάτα",
+      "article_el": "η",
+      "category": "salad",
+      "price": 8.5,
+      "ingredients_en": [
+        "tomato",
+        "cucumber",
+        "onion",
+        "green pepper",
+        "olives",
+        "feta cheese",
+        "olive oil",
+        "oregano"
+      ],
+      "ingredients_el": [
+        "ντομάτα",
+        "αγγούρι",
+        "κρεμμύδι",
+        "πράσινη πιπεριά",
+        "ελιές",
+        "φέτα",
+        "ελαιόλαδο",
+        "ρίγανη"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "aliases": [
+        "greek salad",
+        "horiatiki",
+        "choriatiki",
+        "χωριάτικη",
+        "χωριάτικη σαλάτα",
+        "ελληνική σαλάτα",
+        "xoriatiki"
+      ]
+    },
+    {
+      "id": "caesar_salad",
+      "name_en": "Caesar Salad",
+      "name_el": "Σαλάτα Σίζαρ",
+      "article_el": "η",
+      "category": "salad",
+      "price": 9.0,
+      "ingredients_en": [
+        "lettuce",
+        "grilled chicken",
+        "croutons",
+        "parmesan",
+        "caesar dressing (egg, anchovy)"
+      ],
+      "ingredients_el": [
+        "μαρούλι",
+        "κοτόπουλο σχάρας",
+        "κρουτόν",
+        "παρμεζάνα",
+        "σάλτσα σίζαρ (αυγό, αντσούγια)"
+      ],
+      "allergens": [
+        "gluten",
+        "eggs",
+        "milk",
+        "fish",
+        "mustard"
+      ],
+      "aliases": [
+        "caesar",
+        "caesar salad",
+        "cesar salad",
+        "σίζαρ",
+        "σαλάτα σίζαρ",
+        "σιζαρ",
+        "sizar",
+        "salata sizar"
+      ]
+    },
+    {
+      "id": "carbonara",
+      "name_en": "Spaghetti Carbonara",
+      "name_el": "Σπαγγέτι Καρμπονάρα",
+      "article_el": "η",
+      "category": "main",
+      "price": 12.5,
+      "ingredients_en": [
+        "spaghetti (wheat pasta)",
+        "guanciale",
+        "egg yolk",
+        "pecorino",
+        "black pepper"
+      ],
+      "ingredients_el": [
+        "σπαγγέτι (ζυμαρικά σίτου)",
+        "γκουαντσιάλε",
+        "κρόκος αυγού",
+        "πεκορίνο",
+        "μαύρο πιπέρι"
+      ],
+      "allergens": [
+        "gluten",
+        "eggs",
+        "milk"
+      ],
+      "aliases": [
+        "carbonara",
+        "spaghetti carbonara",
+        "karbonara",
+        "καρμπονάρα",
+        "σπαγγέτι καρμπονάρα",
+        "μακαρονάδα καρμπονάρα",
+        "karmponara"
+      ]
+    },
+    {
+      "id": "risotto_funghi",
+      "name_en": "Risotto ai Funghi",
+      "name_el": "Ριζότο με Μανιτάρια",
+      "article_el": "το",
+      "category": "main",
+      "price": 13.0,
+      "ingredients_en": [
+        "arborio rice",
+        "mixed mushrooms",
+        "butter",
+        "parmesan",
+        "white wine",
+        "vegetable stock (celery)"
+      ],
+      "ingredients_el": [
+        "ρύζι αρμπόριο",
+        "ανάμεικτα μανιτάρια",
+        "βούτυρο",
+        "παρμεζάνα",
+        "λευκό κρασί",
+        "ζωμός λαχανικών (σέλινο)"
+      ],
+      "allergens": [
+        "milk",
+        "celery",
+        "sulphites"
+      ],
+      "aliases": [
+        "risotto",
+        "risotto ai funghi",
+        "mushroom risotto",
+        "ριζότο",
+        "ριζότο με μανιτάρια",
+        "ριζότο μανιταριών",
+        "rizoto"
+      ]
+    },
+    {
+      "id": "moussaka",
+      "name_en": "Moussaka",
+      "name_el": "Μουσακάς",
+      "article_el": "ο",
+      "category": "main",
+      "price": 13.5,
+      "ingredients_en": [
+        "eggplant",
+        "potato",
+        "minced beef",
+        "tomato sauce",
+        "béchamel (milk, flour, egg)"
+      ],
+      "ingredients_el": [
+        "μελιτζάνα",
+        "πατάτα",
+        "μοσχαρίσιος κιμάς",
+        "σάλτσα ντομάτας",
+        "μπεσαμέλ (γάλα, αλεύρι, αυγό)"
+      ],
+      "allergens": [
+        "gluten",
+        "milk",
+        "eggs"
+      ],
+      "aliases": [
+        "moussaka",
+        "musaka",
+        "mousaka",
+        "μουσακάς",
+        "μουσακά",
+        "mousakas"
+      ]
+    },
+    {
+      "id": "souvlaki",
+      "name_en": "Pork Souvlaki",
+      "name_el": "Σουβλάκι Χοιρινό",
+      "article_el": "το",
+      "category": "main",
+      "price": 11.0,
+      "ingredients_en": [
+        "pork skewers",
+        "pita bread",
+        "tomato",
+        "onion",
+        "tzatziki",
+        "fries"
+      ],
+      "ingredients_el": [
+        "χοιρινά καλαμάκια",
+        "πίτα",
+        "ντομάτα",
+        "κρεμμύδι",
+        "τζατζίκι",
+        "πατάτες τηγανητές"
+      ],
+      "allergens": [
+        "gluten",
+        "milk"
+      ],
+      "aliases": [
+        "souvlaki",
+        "pork souvlaki",
+        "souvlakia",
+        "σουβλάκι",
+        "σουβλάκια",
+        "σουβλάκι χοιρινό",
+        "kalamaki",
+        "καλαμάκι"
+      ]
+    },
+    {
+      "id": "sea_bass",
+      "name_en": "Grilled Sea Bass",
+      "name_el": "Λαβράκι Σχάρας",
+      "article_el": "το",
+      "category": "main",
+      "price": 18.0,
+      "ingredients_en": [
+        "fresh sea bass",
+        "lemon-oil dressing",
+        "steamed vegetables"
+      ],
+      "ingredients_el": [
+        "φρέσκο λαβράκι",
+        "λαδολέμονο",
+        "λαχανικά ατμού"
+      ],
+      "allergens": [
+        "fish"
+      ],
+      "aliases": [
+        "sea bass",
+        "seabass",
+        "grilled sea bass",
+        "bass",
+        "λαβράκι",
+        "λαβράκι σχάρας",
+        "lavraki"
+      ]
+    },
+    {
+      "id": "shrimp_pasta",
+      "name_en": "Shrimp Pasta",
+      "name_el": "Γαριδομακαρονάδα",
+      "article_el": "η",
+      "category": "main",
+      "price": 16.5,
+      "ingredients_en": [
+        "linguine (wheat pasta)",
+        "shrimps",
+        "tomato sauce",
+        "garlic",
+        "celery",
+        "parsley"
+      ],
+      "ingredients_el": [
+        "λιγκουίνι (ζυμαρικά σίτου)",
+        "γαρίδες",
+        "σάλτσα ντομάτας",
+        "σκόρδο",
+        "σέλινο",
+        "μαϊντανός"
+      ],
+      "allergens": [
+        "gluten",
+        "crustaceans",
+        "celery"
+      ],
+      "aliases": [
+        "shrimp pasta",
+        "prawn pasta",
+        "garidomakaronada",
+        "γαριδομακαρονάδα",
+        "μακαρονάδα με γαρίδες",
+        "pasta with shrimp"
+      ]
+    },
+    {
+      "id": "buddha_bowl",
+      "name_en": "Vegan Buddha Bowl",
+      "name_el": "Vegan Μπολ Λαχανικών",
+      "article_el": "το",
+      "category": "main",
+      "price": 10.5,
+      "ingredients_en": [
+        "quinoa",
+        "chickpeas",
+        "avocado",
+        "tofu",
+        "tahini dressing",
+        "seasonal vegetables"
+      ],
+      "ingredients_el": [
+        "κινόα",
+        "ρεβίθια",
+        "αβοκάντο",
+        "τόφου",
+        "σάλτσα ταχίνι",
+        "λαχανικά εποχής"
+      ],
+      "allergens": [
+        "sesame",
+        "soybeans"
+      ],
+      "aliases": [
+        "buddha bowl",
+        "vegan bowl",
+        "vegan buddha bowl",
+        "bowl",
+        "μπολ λαχανικών",
+        "μπολ",
+        "vegan μπολ",
+        "mpol"
+      ]
+    },
+    {
+      "id": "pizza_margherita",
+      "name_en": "Pizza Margherita",
+      "name_el": "Πίτσα Μαργαρίτα",
+      "article_el": "η",
+      "category": "pizza",
+      "price": 9.0,
+      "ingredients_en": [
+        "pizza dough (wheat)",
+        "tomato sauce",
+        "mozzarella",
+        "basil"
+      ],
+      "ingredients_el": [
+        "ζύμη πίτσας (σίτος)",
+        "σάλτσα ντομάτας",
+        "μοτσαρέλα",
+        "βασιλικός"
+      ],
+      "allergens": [
+        "gluten",
+        "milk"
+      ],
+      "aliases": [
+        "margherita",
+        "pizza margherita",
+        "margarita",
+        "pizza margarita",
+        "margherita pizza",
+        "μαργαρίτα",
+        "πίτσα μαργαρίτα",
+        "πιτσα μαργαριτα",
+        "pitsa margarita"
+      ]
+    },
+    {
+      "id": "pizza_pepperoni",
+      "name_en": "Pizza Pepperoni",
+      "name_el": "Πίτσα Πεπερόνι",
+      "article_el": "η",
+      "category": "pizza",
+      "price": 11.0,
+      "ingredients_en": [
+        "pizza dough (wheat)",
+        "tomato sauce",
+        "mozzarella",
+        "pepperoni"
+      ],
+      "ingredients_el": [
+        "ζύμη πίτσας (σίτος)",
+        "σάλτσα ντομάτας",
+        "μοτσαρέλα",
+        "πεπερόνι"
+      ],
+      "allergens": [
+        "gluten",
+        "milk"
+      ],
+      "aliases": [
+        "pepperoni",
+        "pizza pepperoni",
+        "pepperoni pizza",
+        "πεπερόνι",
+        "πίτσα πεπερόνι",
+        "pitsa peperoni",
+        "peperoni"
+      ]
+    },
+    {
+      "id": "pizza_vegetarian",
+      "name_en": "Pizza Vegetariana",
+      "name_el": "Πίτσα Λαχανικών",
+      "article_el": "η",
+      "category": "pizza",
+      "price": 10.0,
+      "ingredients_en": [
+        "pizza dough (wheat)",
+        "tomato sauce",
+        "mozzarella",
+        "peppers",
+        "mushrooms",
+        "olives",
+        "onion"
+      ],
+      "ingredients_el": [
+        "ζύμη πίτσας (σίτος)",
+        "σάλτσα ντομάτας",
+        "μοτσαρέλα",
+        "πιπεριές",
+        "μανιτάρια",
+        "ελιές",
+        "κρεμμύδι"
+      ],
+      "allergens": [
+        "gluten",
+        "milk"
+      ],
+      "aliases": [
+        "vegetariana",
+        "pizza vegetariana",
+        "vegetarian pizza",
+        "veggie pizza",
+        "πίτσα λαχανικών",
+        "χορτοφαγική πίτσα",
+        "pitsa laxanikon"
+      ]
+    },
+    {
+      "id": "tiramisu",
+      "name_en": "Tiramisu",
+      "name_el": "Τιραμισού",
+      "article_el": "το",
+      "category": "dessert",
+      "price": 6.5,
+      "ingredients_en": [
+        "mascarpone",
+        "ladyfingers (wheat)",
+        "eggs",
+        "espresso",
+        "cocoa"
+      ],
+      "ingredients_el": [
+        "μασκαρπόνε",
+        "σαβαγιάρ (σίτος)",
+        "αυγά",
+        "εσπρέσο",
+        "κακάο"
+      ],
+      "allergens": [
+        "gluten",
+        "eggs",
+        "milk"
+      ],
+      "aliases": [
+        "tiramisu",
+        "tiramisou",
+        "τιραμισού",
+        "τιραμισου"
+      ]
+    },
+    {
+      "id": "baklava",
+      "name_en": "Baklava",
+      "name_el": "Μπακλαβάς",
+      "article_el": "ο",
+      "category": "dessert",
+      "price": 5.5,
+      "ingredients_en": [
+        "filo pastry (wheat)",
+        "walnuts",
+        "pistachios",
+        "honey syrup",
+        "butter"
+      ],
+      "ingredients_el": [
+        "φύλλο κρούστας (σίτος)",
+        "καρύδια",
+        "φιστίκια Αιγίνης",
+        "σιρόπι μελιού",
+        "βούτυρο"
+      ],
+      "allergens": [
+        "gluten",
+        "nuts",
+        "milk"
+      ],
+      "aliases": [
+        "baklava",
+        "baklavas",
+        "μπακλαβάς",
+        "μπακλαβά",
+        "mpaklavas"
+      ]
+    },
+    {
+      "id": "yogurt_honey",
+      "name_en": "Greek Yogurt with Honey",
+      "name_el": "Γιαούρτι με Μέλι",
+      "article_el": "το",
+      "category": "dessert",
+      "price": 5.0,
+      "ingredients_en": [
+        "strained Greek yogurt",
+        "thyme honey",
+        "walnuts"
+      ],
+      "ingredients_el": [
+        "στραγγιστό γιαούρτι",
+        "θυμαρίσιο μέλι",
+        "καρύδια"
+      ],
+      "allergens": [
+        "milk",
+        "nuts"
+      ],
+      "aliases": [
+        "yogurt",
+        "yoghurt",
+        "greek yogurt",
+        "yogurt with honey",
+        "γιαούρτι",
+        "γιαούρτι με μέλι",
+        "giaourti",
+        "giaourti me meli"
+      ]
+    },
+    {
+      "id": "coca_cola",
+      "name_en": "Coca-Cola",
+      "name_el": "Coca-Cola",
+      "article_el": "η",
+      "category": "drink",
+      "price": 2.5,
+      "ingredients_en": [
+        "Coca-Cola 330ml"
+      ],
+      "ingredients_el": [
+        "Coca-Cola 330ml"
+      ],
+      "allergens": [],
+      "aliases": [
+        "coca-cola",
+        "coca cola",
+        "coke",
+        "cola",
+        "κόκα κόλα",
+        "κοκα κολα",
+        "κόλα",
+        "koka kola"
+      ]
+    },
+    {
+      "id": "water",
+      "name_en": "Mineral Water",
+      "name_el": "Εμφιαλωμένο Νερό",
+      "article_el": "το",
+      "category": "drink",
+      "price": 1.5,
+      "ingredients_en": [
+        "still mineral water 1L"
+      ],
+      "ingredients_el": [
+        "φυσικό μεταλλικό νερό 1L"
+      ],
+      "allergens": [],
+      "aliases": [
+        "water",
+        "mineral water",
+        "bottle of water",
+        "νερό",
+        "νερά",
+        "εμφιαλωμένο νερό",
+        "nero"
+      ]
+    },
+    {
+      "id": "orange_juice",
+      "name_en": "Fresh Orange Juice",
+      "name_el": "Φρέσκος Χυμός Πορτοκάλι",
+      "article_el": "ο",
+      "category": "drink",
+      "price": 3.5,
+      "ingredients_en": [
+        "freshly squeezed oranges"
+      ],
+      "ingredients_el": [
+        "φρεσκοστυμμένα πορτοκάλια"
+      ],
+      "allergens": [],
+      "aliases": [
+        "orange juice",
+        "fresh orange juice",
+        "juice",
+        "χυμός",
+        "χυμός πορτοκάλι",
+        "πορτοκαλάδα φρέσκια",
+        "xymos portokali",
+        "portokalada"
+      ]
+    },
+    {
+      "id": "keo_beer",
+      "name_en": "KEO Beer",
+      "name_el": "Μπύρα KEO",
+      "article_el": "η",
+      "category": "drink",
+      "price": 4.0,
+      "ingredients_en": [
+        "KEO lager 500ml (barley malt)"
+      ],
+      "ingredients_el": [
+        "μπύρα KEO 500ml (βύνη κριθαριού)"
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "aliases": [
+        "beer",
+        "keo",
+        "keo beer",
+        "μπύρα",
+        "μπίρα",
+        "μπύρες",
+        "mpyra",
+        "mpira"
+      ]
+    },
+    {
+      "id": "red_wine",
+      "name_en": "Red Wine (glass)",
+      "name_el": "Κόκκινο Κρασί (ποτήρι)",
+      "article_el": "το",
+      "category": "drink",
+      "price": 5.5,
+      "ingredients_en": [
+        "Cypriot Maratheftiko red wine 150ml"
+      ],
+      "ingredients_el": [
+        "κυπριακό κόκκινο κρασί Μαραθεφτικό 150ml"
+      ],
+      "allergens": [
+        "sulphites"
+      ],
+      "aliases": [
+        "red wine",
+        "wine",
+        "glass of wine",
+        "glass of red wine",
+        "κρασί",
+        "κόκκινο κρασί",
+        "ποτήρι κρασί",
+        "krasi"
+      ]
+    },
+    {
+      "id": "frappe",
+      "name_en": "Frappé Coffee",
+      "name_el": "Φραπές",
+      "article_el": "ο",
+      "category": "drink",
+      "price": 3.0,
+      "ingredients_en": [
+        "instant coffee",
+        "sugar (optional)",
+        "milk (optional)"
+      ],
+      "ingredients_el": [
+        "στιγμιαίος καφές",
+        "ζάχαρη (προαιρετικά)",
+        "γάλα (προαιρετικά)"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "aliases": [
+        "frappe",
+        "frappé",
+        "frappe coffee",
+        "φραπές",
+        "φραπέ",
+        "frapes"
+      ]
+    }
+  ]
+}
